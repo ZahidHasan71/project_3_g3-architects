@@ -225,12 +225,35 @@ footer{
     .our-features{
         margin-left: 30px;
     }
+    .features{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .feature-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .feature-img img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feature-img button {
+        margin-left: 0;
+        margin-top: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .facts-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 50px auto;
         gap:20px;
         justify-items: center;
+    }
+    .sponsor-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
     }
 
 }
